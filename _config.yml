@@ -15,8 +15,8 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 #url: http://example.com
 
-url: https://github.com/cbc159357/butterfly.github.io.git
-root: /butterfly.github.io/
+url: https://github.com/cbc159357/hexo.git
+root: /hexo/
 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -106,12 +106,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:cbc159357/butterfly.github.io.git
+  repo: git@github.com:cbc159357/hexo.git
   branch: main
 
-
-
-
+  
   # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
