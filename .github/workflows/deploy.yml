@@ -40,13 +40,13 @@ jobs:
 #GitHub Pages部署,同时添加缓存到gh-pages -f
       - name: Deploy to GitHub Pages
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN1 }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           cd public/
           git init
           git add -A
           git commit -m "Create by workflows"
-          git remote add origin https://${{ secrets.GH_TOKEN1 }}@github.com/cbc159357/butterfly.github.io.git
+          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/cbc159357/butterfly.github.io.git
           git push origin HEAD:gh-pages -f
 
           #
