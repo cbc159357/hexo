@@ -105,7 +105,7 @@ footer_img: false
 # 图片格式 url(http://xxxxxx.com/xxx.jpg)
 # 颜色（HEX值/RGB值/颜色单词/渐变色)
 # 留空 不显示背景
-background: img/4.jpeg
+background: \img/4.jpeg
 
 cover:
   # Disable the cover or not
@@ -1032,7 +1032,7 @@ inject:
      - <link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"> 
      - <span id="fps"></span> # 帧率检测
   bottom:
-     - <script src="\js"></script>
+     - <script src="/js"></script>
      - <script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script>
      #樱花特效  
      #- <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
