@@ -11,12 +11,6 @@ author: wct
 language: zh-CN
 timezone: ''
   
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-
-#url: https://cbc159357.github.io/cbc159357.github.io
-#root: /cbc159357.github.io/
 
 
 permalink: :year/:month/:day/:title/
@@ -103,12 +97,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/cbc159357/hexo.git
-  branch: gh-pages
 
   # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
@@ -195,3 +183,18 @@ aplayer:
   meting: true
   asset_inject: false
   
+
+
+  # URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://example.com
+
+url: https://cbc159357.github.io/hexo.github.io
+root: /hexo.github.io/
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/cbc159357/hexo.git
+  branch: gh-pages
