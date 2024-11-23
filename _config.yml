@@ -187,7 +187,8 @@ aplayer:
 
   # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+#url: http://example.com
+
 
 url: https://cbc159357.github.io/hexo.github.io
 root: /hexo.github.io/
@@ -196,5 +197,5 @@ root: /hexo.github.io/
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/cbc159357/hexo.git
+  repo: https://github.com/cbc159357/hexo.github.io.git
   branch: gh-pages
