@@ -146,6 +146,7 @@ post_meta:
     categories: true # true or false 文章页是否显示分类
     tags: true # true or false 文章页是否显示标签
     label: true # true or false 显示描述性文字
+    
 
 # --------------------------------------
 # Index page settings
